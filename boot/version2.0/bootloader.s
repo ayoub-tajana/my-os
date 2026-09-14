@@ -59,24 +59,35 @@ printloading_kernel:
         jmp loadkernel
 
 loadkernel:
-    mov $0x02,%ah # put BIOS Read sectors mode
-    mov $0x01,%al # Read 1 sector
+    # Set segment first, before touching AH/AL
+    mov $0x07E0,%ax
+    mov %ax,%es
+    mov $0x0000,%bx
 
-    # CHS declaration
-        mov $0x00,%ch #Clinder 0
-        mov $0x02,%cl # sector 2
-        mov $0x00,%dh
+    mov $0x02,%ah   # now safe: AH/AL set last
+    mov $0x01,%al
+    mov $0x00,%ch
+    mov $0x02,%cl
+    mov $0x00,%dh
+    mov boot_drive,%dl
 
-    # Choose where the kernel should be loaded in RAM
-        mov $0x07E0,%ax
-        mov %ax,%es
-        mov $0x0000, %bx
-        mov boot_drive, %dl
-    # BIOS Interrupt
-        int $0x13
+    int $0x13
+    jc disk_error
 
-    
     ljmp $0x07E0,$0x0000
+disk_error:
+    mov $diskerrmsg, %si
+    mov $11, %cx
+printerr:
+    mov $0x0E, %ah
+    mov (%si), %al
+    int $0x10
+    inc %si
+    loop printerr
+    jmp .
+
+diskerrmsg:
+    .ascii "Disk Error!"
 welcomemessage:
     .ascii "The Mountain Systems Bootloader v1.0 \n\r"
 loadingmsg:

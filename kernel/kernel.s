@@ -11,7 +11,7 @@ _start:
     
     
     mov $message, %si
-    mov $13,%cx
+    mov $14,%cx
 
 
 printtext:
