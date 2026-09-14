@@ -9,7 +9,7 @@ I always wanted to learn Assembly and C because i like it's complexity and since
     <table>
         <tr>
             <td>
-                <bold>Make</bold>
+                <b>Make</b>
             </td>
             <td>
                 To automate the build process
@@ -17,7 +17,7 @@ I always wanted to learn Assembly and C because i like it's complexity and since
         </tr> 
         <tr>
             <td>
-                <bold>as & ld</bold>
+                <b>as & ld</b>
             </td>
             <td>
                 The assembler and linker to create at the end a file that the BIOS/UEFI can read
@@ -25,7 +25,7 @@ I always wanted to learn Assembly and C because i like it's complexity and since
         </tr> 
         <tr>
             <td>
-                <bold>QEMU x86_64</bold>
+                <b>QEMU x86_64</b>
             </td>
             <td>
                 To test out the code i made
