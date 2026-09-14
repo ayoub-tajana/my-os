@@ -10,7 +10,7 @@ _start:
     int $0x10
     
     
-    mov $message, %si
+    mov $welcomemessage, %si
     mov $36,%cx
 
 
@@ -21,9 +21,10 @@ printwelcome:
     int $0x10
 
     inc %si
-    loop printtext
-
-    mov $14,%cx
+    loop printwelcome
+    
+    mov $loadingmsg, %si
+    mov $17,%cx
     jmp printloading_kernel
 
 printloading_kernel:
@@ -35,8 +36,7 @@ printloading_kernel:
     loop printloading_kernel
 
     jmp .
-message:
+welcomemessage:
     .ascii "The Mountain Systems Bootloader v1.0"
-    
-    .fill 510 - (. - _start), 1, 0
-    .word 0xAA55
+loadingmsg:
+    .ascii "Loading Kernel..."
