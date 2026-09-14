@@ -1,4 +1,4 @@
-<h1>My Operating Systemµ (my-os)</h1>
+<h1>My Operating System (my-os)</h1>
 
 <h2>What's the objective?</h2>
 <p>I started this project to learn about how a computer works in detail. Starting from how from the part where hardware is initialized, the bootloader to the actually Operating system.
