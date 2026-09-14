@@ -15,13 +15,15 @@ _start:
 
 
 printwelcome:
+    push %cx
     # 2 second delay
         mov $0x86, %ah
         mov $0x00, %al
-        mov $0x0003, %cx
-        mov $0x0D40, %dx
+        mov $0x0001, %cx
+        mov $0x86A0, %dx
         int $0x15
 
+    pop %cx
     # print text to screen
         mov $0x0E, %ah
         mov (%si), %al
@@ -35,14 +37,14 @@ printwelcome:
         jmp printloading_kernel
 
 printloading_kernel:
-    
+     push %cx
     # 2 second delay
         mov $0x86, %ah
         mov $0x00, %al
-        mov $0x0003, %cx
-        mov $0x0D40, %dx
+        mov $0x0001, %cx
+        mov $0x86A0, %dx
         int $0x15
-    
+     pop %cx
     # enabling output to the screen (BIOS Function)
         mov $0x0E,%ah
 
