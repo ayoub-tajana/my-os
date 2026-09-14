@@ -18,8 +18,8 @@ printwelcome:
     # 2 second delay
         mov $0x86, %ah
         mov $0x00, %al
-        mov $0x0007, %cx
-        mov $0xA120, %dx
+        mov $0x0003, %cx
+        mov $0x0D40, %dx
         int $0x15
 
     # print text to screen
@@ -39,8 +39,8 @@ printloading_kernel:
     # 2 second delay
         mov $0x86, %ah
         mov $0x00, %al
-        mov $0x0007, %cx
-        mov $0xA120, %dx
+        mov $0x0003, %cx
+        mov $0x0D40, %dx
         int $0x15
     
     # enabling output to the screen (BIOS Function)
