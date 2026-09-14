@@ -40,3 +40,5 @@ welcomemessage:
     .ascii "The Mountain Systems Bootloader v1.0"
 loadingmsg:
     .ascii "Loading Kernel..."
+    .fill 510 - (. - _start), 1, 0
+    .word 0xAA55
