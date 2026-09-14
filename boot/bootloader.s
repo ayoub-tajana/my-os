@@ -11,7 +11,7 @@ _start:
     
     
     mov $message, %si
-    mov $12,%cx
+    mov $36,%cx
 
 
 printtext:
@@ -24,7 +24,7 @@ printtext:
     loop printtext
     jmp .
 message:
-    .ascii "Hello World!"
+    .ascii "The Mountain Systems Bootloader v1.0"
     
     .fill 510 - (. - _start), 1, 0
     .word 0xAA55
