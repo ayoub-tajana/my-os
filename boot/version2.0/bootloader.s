@@ -55,7 +55,26 @@ printloading_kernel:
         inc %si
         loop printloading_kernel
 
-        jmp .
+        jmp loadkernel
+
+loadkernel:
+    mov $0x02,%ah # put BIOS Read sectors mode
+    mov $0x01,%al # Read 1 sector
+
+    # CHS declaration
+        mov$0x00,%ch #Clinder 0
+        mov$0x02,%cl # sector 2
+        mov$0x00,%dh
+
+    # Choose where the kernel should be loaded in RAM
+        mov $0x1000,%ax
+        mov %ax,%es
+        mov %0x0000, %bx
+
+    # BIOS Interrupt
+        int $0x13
+
+    ljmp $0x1000,$0x0000
 welcomemessage:
     .ascii "The Mountain Systems Bootloader v1.0 \n\r"
 loadingmsg:
