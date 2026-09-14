@@ -1,0 +1,672 @@
+rax            0x0                 0
+rbx            0x0                 0
+rcx            0x0                 0
+rdx            0xf06ce             984782
+rsi            0x0                 0
+rdi            0x0                 0
+rbp            0x0                 0x0
+rsp            0x7000              0x7000
+r8             0x0                 0
+r9             0x0                 0
+r10            0x0                 0
+r11            0x0                 0
+r12            0x0                 0
+r13            0x0                 0
+r14            0x0                 0
+r15            0x0                 0
+rip            0xe076              0xe076
+eflags         0x46                [ IOPL=0 ZF PF ]
+cs             0xf000              61440
+ss             0x0                 0
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+fs_base        0x0                 0
+gs_base        0x0                 0
+k_gs_base      0x0                 0
+cr0            0x60000010          [ CD NW ET ]
+cr2            0x0                 0
+cr3            0x0                 [ PDBR=0 PCID=0 ]
+cr4            0x0                 [ ]
+cr8            0x0                 0
+efer           0x0                 [ ]
+xmm0           {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm1           {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm2           {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm3           {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm4           {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm5           {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm6           {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm7           {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm8           {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm9           {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm10          {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm11          {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm12          {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm13          {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm14          {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+xmm15          {v4_float = {0x0, 0x0, 0x0, 0x0}, v2_double = {0x0, 0x0}, v16_int8 = {0x0 <repeats 16 times>}, v8_int16 = {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, v4_int32 = {0x0, 0x0, 0x0, 0x0}, v2_int64 = {0x0, 0x0}, uint128 = 0x0}
+mxcsr          0x1f80              [ IM DM ZM OM UM PM ]
+=> 0xe076:	[remote] Sending packet: $me040,40#f6
+[remote] Sending packet: $me040,40#f6
+[remote] Received Ack
+[remote] Packet received: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+add    %al,(%rax)
+=> 0xe076:	add    %al,(%rax)
+[remote] Sending packet: $vCont;s:p1.1;c:p1.-1#f7
+[remote] Received Ack
+[remote] wait: enter
+[remote] wait: exit
+[remote] wait: enter
+  [remote] Packet received: T05thread:p01.01;
+[remote] wait: exit
+[remote] Sending packet: $g#67
+[remote] Received Ack
+[remote] Packet received: e00100000000000000000000000000000200000000000000a000000000000000957c000000000000000000000000000000000000000000000c6f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000029200000000000082020000e00700000000000000000000e007000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 [704 of 1216 bytes omitted]
+[remote] Sending packet: $m9202,1#97
+[remote] Received Ack
+[remote] Packet received: 00
+[remote] Sending packet: $m6f00,40#f9
+[remote] Received Ack
+[remote] Packet received: 0000e001000038d0e007830203d000f000000000666f0000000000008a8100000000000051810000666f0000d37c000000000000666f00000000000051810000
+[remote] Sending packet: $qfThreadInfo#bb
+[remote] Received Ack
+[remote] Packet received: mp01.01
+[remote] Sending packet: $qsThreadInfo#c8
+[remote] Received Ack
+[remote] Packet received: l
+[remote] Sending packet: $m9202,1#97
+[remote] Received Ack
+[remote] Packet received: 00
+0x0000000000009202 in ?? ()
+cs             0x7e0               2016
+rip            0x9202              0x9202
+[remote] Sending packet: $qRcmd,73797374656d5f7265736574#86
+[remote] Received Ack
+[remote] Packet received: OK
+❌️ A syntax error in expression, near `continue'.
+❌️ No symbol table is loaded.  Use the "file" command.
+Breakpoint 1 (ljmp_label) pending.
+⚠️ warning: Selected architecture i386 is not compatible with reported target architecture i386:x86-64
+❌️ Architecture of file not recognized.
+[remote] Sending packet: $qRcmd,73797374656d5f7265736574#86
+[remote] Received Ack
+[remote] Packet received: OK
+[remote] Sending packet: $m7c00,1#c4
+[remote] Received Ack
+[remote] Packet received: b4
+Breakpoint 2 at 0x7c00
+Continuing.
+[remote] Sending packet: $Z0,7c00,1#0d
+[remote] Received Ack
+[remote] Packet received: OK
+[remote] packet_ok: Packet Z0 (software-breakpoint) is supported
+[remote] Sending packet: $vCont;c:p1.-1#0f
+[remote] Received Ack
+[remote] wait: enter
+[remote] wait: exit
+[remote] wait: enter
+  [remote] Packet received: T05thread:p01.01;
+[remote] wait: exit
+[remote] Sending packet: $g#67
+[remote] Received Ack
+[remote] Packet received: 55aa0000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000c6f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007c000000000000020200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 [704 of 1216 bytes omitted]
+[remote] Sending packet: $qfThreadInfo#bb
+[remote] Received Ack
+[remote] Packet received: mp01.01
+[remote] Sending packet: $qsThreadInfo#c8
+[remote] Received Ack
+[remote] Packet received: l
+[remote] Sending packet: $z0,7c00,1#2d
+[remote] Received Ack
+[remote] Packet received: OK
+
+Breakpoint 2, [remote] Sending packet: $m7c00,1#c4
+[remote] Received Ack
+[remote] Packet received: b4
+0x0000000000007c00 in ?? ()
+❌️ A syntax error in expression, near `si
+x/i $pc'.
+=> 0x7c00:	[remote] Sending packet: $m7c00,40#f7
+[remote] Received Ack
+[remote] Packet received: b400b003cd10be5d7cb9270051b486b000b90100baa086cd1559b40e8a04cd1046e2e9be847cb91100eb0051b486b000b90100baa086cd1559b40e8a04cd1046
+mov    $0x0,%ah
+[remote] Sending packet: $vCont;s:p1.1#f2
+[remote] Received Ack
+[remote] wait: enter
+[remote] wait: exit
+[remote] wait: enter
+  [remote] Packet received: T05thread:p01.01;
+[remote] wait: exit
+[remote] Sending packet: $g#67
+[remote] Received Ack
+[remote] Packet received: 000000000000000080da0000000000009db7000000000000000000000000000098f900000000000000000000000000000000000000000000006f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bab70000000000004600000000f00000000000000000000080da000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 [704 of 1216 bytes omitted]
+[remote] Sending packet: $mb7ba,1#26
+[remote] Received Ack
+[remote] Packet received: 00
+[remote] Sending packet: $m6f00,40#f9
+[remote] Received Ack
+[remote] Packet received: 92710000387c00000202060003d000f000000000666f0000000000008a8100000000000051810000666f0000d37c000000000000666f00000000000051810000
+[remote] Sending packet: $qfThreadInfo#bb
+[remote] Received Ack
+[remote] Packet received: mp01.01
+[remote] Sending packet: $qsThreadInfo#c8
+[remote] Received Ack
+[remote] Packet received: l
+[remote] Sending packet: $mb7ba,1#26
+[remote] Received Ack
+[remote] Packet received: 00
+0x000000000000b7ba in ?? ()
+=> 0xb7ba:	[remote] Sending packet: $mb780,40#fe
+[remote] Received Ack
+[remote] Packet received: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+add    %al,(%rax)
+=> 0xb7ba:	add    %al,(%rax)
+   0xb7bc:	add    %al,(%rax)
+   0xb7be:	add    %al,(%rax)
+   0xb7c0:	[remote] Sending packet: $mb7c0,40#29
+[remote] Received Ack
+[remote] Packet received: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+add    %al,(%rax)
+   0xb7c2:	add    %al,(%rax)
+   0xb7c4:	add    %al,(%rax)
+   0xb7c6:	add    %al,(%rax)
+   0xb7c8:	add    %al,(%rax)
+   0xb7ca:	add    %al,(%rax)
+   0xb7cc:	add    %al,(%rax)
+   0xb7ce:	add    %al,(%rax)
+   0xb7d0:	add    %al,(%rax)
+   0xb7d2:	add    %al,(%rax)
+   0xb7d4:	add    %al,(%rax)
+   0xb7d6:	add    %al,(%rax)
+   0xb7d8:	add    %al,(%rax)
+   0xb7da:	add    %al,(%rax)
+   0xb7dc:	add    %al,(%rax)
+   0xb7de:	add    %al,(%rax)
+   0xb7e0:	add    %al,(%rax)
+   0xb7e2:	add    %al,(%rax)
+   0xb7e4:	add    %al,(%rax)
+   0xb7e6:	add    %al,(%rax)
+   0xb7e8:	add    %al,(%rax)
+   0xb7ea:	add    %al,(%rax)
+   0xb7ec:	add    %al,(%rax)
+   0xb7ee:	add    %al,(%rax)
+   0xb7f0:	add    %al,(%rax)
+   0xb7f2:	add    %al,(%rax)
+   0xb7f4:	add    %al,(%rax)
+   0xb7f6:	add    %al,(%rax)
+   0xb7f8:	add    %al,(%rax)
+   0xb7fa:	add    %al,(%rax)
+   0xb7fc:	add    %al,(%rax)
+   0xb7fe:	add    %al,(%rax)
+   0xb800:	[remote] Sending packet: $mb800,40#f7
+[remote] Received Ack
+[remote] Packet received: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+add    %al,(%rax)
+   0xb802:	add    %al,(%rax)
+   0xb804:	add    %al,(%rax)
+   0xb806:	add    %al,(%rax)
+   0xb808:	add    %al,(%rax)
+   0xb80a:	add    %al,(%rax)
+   0xb80c:	add    %al,(%rax)
+   0xb80e:	add    %al,(%rax)
+   0xb810:	add    %al,(%rax)
+   0xb812:	add    %al,(%rax)
+   0xb814:	add    %al,(%rax)
+   0xb816:	add    %al,(%rax)
+   0xb818:	add    %al,(%rax)
+   0xb81a:	add    %al,(%rax)
+   0xb81c:	add    %al,(%rax)
+=> 0xb7ba:	add    %al,(%rax)
+   0xb7bc:	add    %al,(%rax)
+   0xb7be:	add    %al,(%rax)
+   0xb7c0:	add    %al,(%rax)
+   0xb7c2:	add    %al,(%rax)
+   0xb7c4:	add    %al,(%rax)
+   0xb7c6:	add    %al,(%rax)
+   0xb7c8:	add    %al,(%rax)
+   0xb7ca:	add    %al,(%rax)
+   0xb7cc:	add    %al,(%rax)
+   0xb7ce:	add    %al,(%rax)
+   0xb7d0:	add    %al,(%rax)
+   0xb7d2:	add    %al,(%rax)
+   0xb7d4:	add    %al,(%rax)
+   0xb7d6:	add    %al,(%rax)
+   0xb7d8:	add    %al,(%rax)
+   0xb7da:	add    %al,(%rax)
+   0xb7dc:	add    %al,(%rax)
+   0xb7de:	add    %al,(%rax)
+   0xb7e0:	add    %al,(%rax)
+   0xb7e2:	add    %al,(%rax)
+   0xb7e4:	add    %al,(%rax)
+   0xb7e6:	add    %al,(%rax)
+   0xb7e8:	add    %al,(%rax)
+   0xb7ea:	add    %al,(%rax)
+   0xb7ec:	add    %al,(%rax)
+   0xb7ee:	add    %al,(%rax)
+   0xb7f0:	add    %al,(%rax)
+   0xb7f2:	add    %al,(%rax)
+   0xb7f4:	add    %al,(%rax)
+   0xb7f6:	add    %al,(%rax)
+   0xb7f8:	add    %al,(%rax)
+   0xb7fa:	add    %al,(%rax)
+   0xb7fc:	add    %al,(%rax)
+   0xb7fe:	add    %al,(%rax)
+   0xb800:	add    %al,(%rax)
+   0xb802:	add    %al,(%rax)
+   0xb804:	add    %al,(%rax)
+   0xb806:	add    %al,(%rax)
+   0xb808:	add    %al,(%rax)
+   0xb80a:	add    %al,(%rax)
+   0xb80c:	add    %al,(%rax)
+   0xb80e:	add    %al,(%rax)
+   0xb810:	add    %al,(%rax)
+   0xb812:	add    %al,(%rax)
+   0xb814:	add    %al,(%rax)
+   0xb816:	add    %al,(%rax)
+   0xb818:	add    %al,(%rax)
+   0xb81a:	add    %al,(%rax)
+   0xb81c:	add    %al,(%rax)
+cs             0xf000              61440
+rip            0xb7ba              0xb7ba
+$1 = 0xb7ba
+$2 = 0xb7ba
+0x7e00:	[remote] Sending packet: $m7e00,1#c6
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e01,1#c7
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e02,1#c8
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e03,1#c9
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e04,1#ca
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e05,1#cb
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e06,1#cc
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e07,1#cd
+[remote] Received Ack
+[remote] Packet received: 00
+0x00
+0x7e08:	[remote] Sending packet: $m7e08,1#ce
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e09,1#cf
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e0a,1#f7
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e0b,1#f8
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e0c,1#f9
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e0d,1#fa
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e0e,1#fb
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e0f,1#fc
+[remote] Received Ack
+[remote] Packet received: 00
+0x00
+0x7e10:	[remote] Sending packet: $m7e10,1#c7
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e11,1#c8
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e12,1#c9
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e13,1#ca
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e14,1#cb
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e15,1#cc
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e16,1#cd
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e17,1#ce
+[remote] Received Ack
+[remote] Packet received: 00
+0x00
+0x7e18:	[remote] Sending packet: $m7e18,1#cf
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e19,1#d0
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e1a,1#f8
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e1b,1#f9
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e1c,1#fa
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e1d,1#fb
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e1e,1#fc
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7e1f,1#fd
+[remote] Received Ack
+[remote] Packet received: 00
+0x00
+dx             0x0                 0
+es             0xda80              55936
+bx             0xda80              -9600
+ax             0x0                 0
+bx             0xda80              -9600
+dx             0x0                 0
+es             0xda80              55936
+[remote] Sending packet: $qRcmd,73797374656d5f7265736574#86
+[remote] Received Ack
+[remote] Packet received: OK
+❌️ A syntax error in expression, near `continue'.
+Note: breakpoint 2 also set at pc 0x7c00.
+[remote] Sending packet: $m7c00,1#c4
+[remote] Received Ack
+[remote] Packet received: b4
+Breakpoint 3 at 0x7c00
+Continuing.
+[remote] Sending packet: $Z0,7c00,1#0d
+[remote] Received Ack
+[remote] Packet received: OK
+[remote] Sending packet: $vCont;c:p1.-1#0f
+[remote] Received Ack
+[remote] wait: enter
+[remote] wait: exit
+[remote] wait: enter
+  [remote] Packet received: T05thread:p01.01;
+[remote] wait: exit
+[remote] Sending packet: $g#67
+[remote] Received Ack
+[remote] Packet received: 55aa0000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000c6f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007c000000000000020200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 [704 of 1216 bytes omitted]
+[remote] Sending packet: $qfThreadInfo#bb
+[remote] Received Ack
+[remote] Packet received: mp01.01
+[remote] Sending packet: $qsThreadInfo#c8
+[remote] Received Ack
+[remote] Packet received: l
+[remote] Sending packet: $z0,7c00,1#2d
+[remote] Received Ack
+[remote] Packet received: OK
+
+Breakpoint 2, [remote] Sending packet: $m7c00,1#c4
+[remote] Received Ack
+[remote] Packet received: b4
+0x0000000000007c00 in ?? ()
+0x7c00:	[remote] Sending packet: $m7c00,1#c4
+[remote] Received Ack
+[remote] Packet received: b4
+0xb4	[remote] Sending packet: $m7c01,1#c5
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7c02,1#c6
+[remote] Received Ack
+[remote] Packet received: b0
+0xb0	[remote] Sending packet: $m7c03,1#c7
+[remote] Received Ack
+[remote] Packet received: 03
+0x03	[remote] Sending packet: $m7c04,1#c8
+[remote] Received Ack
+[remote] Packet received: cd
+0xcd	[remote] Sending packet: $m7c05,1#c9
+[remote] Received Ack
+[remote] Packet received: 10
+0x10	[remote] Sending packet: $m7c06,1#ca
+[remote] Received Ack
+[remote] Packet received: be
+0xbe	[remote] Sending packet: $m7c07,1#cb
+[remote] Received Ack
+[remote] Packet received: 5d
+0x5d
+0x7c08:	[remote] Sending packet: $m7c08,1#cc
+[remote] Received Ack
+[remote] Packet received: 7c
+0x7c	[remote] Sending packet: $m7c09,1#cd
+[remote] Received Ack
+[remote] Packet received: b9
+0xb9	[remote] Sending packet: $m7c0a,1#f5
+[remote] Received Ack
+[remote] Packet received: 27
+0x27	[remote] Sending packet: $m7c0b,1#f6
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7c0c,1#f7
+[remote] Received Ack
+[remote] Packet received: 51
+0x51	[remote] Sending packet: $m7c0d,1#f8
+[remote] Received Ack
+[remote] Packet received: b4
+0xb4	[remote] Sending packet: $m7c0e,1#f9
+[remote] Received Ack
+[remote] Packet received: 86
+0x86	[remote] Sending packet: $m7c0f,1#fa
+[remote] Received Ack
+[remote] Packet received: b0
+0xb0
+0x7c10:	[remote] Sending packet: $m7c10,1#c5
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7c11,1#c6
+[remote] Received Ack
+[remote] Packet received: b9
+0xb9	[remote] Sending packet: $m7c12,1#c7
+[remote] Received Ack
+[remote] Packet received: 01
+0x01	[remote] Sending packet: $m7c13,1#c8
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7c14,1#c9
+[remote] Received Ack
+[remote] Packet received: ba
+0xba	[remote] Sending packet: $m7c15,1#ca
+[remote] Received Ack
+[remote] Packet received: a0
+0xa0	[remote] Sending packet: $m7c16,1#cb
+[remote] Received Ack
+[remote] Packet received: 86
+0x86	[remote] Sending packet: $m7c17,1#cc
+[remote] Received Ack
+[remote] Packet received: cd
+0xcd
+0x7c18:	[remote] Sending packet: $m7c18,1#cd
+[remote] Received Ack
+[remote] Packet received: 15
+0x15	[remote] Sending packet: $m7c19,1#ce
+[remote] Received Ack
+[remote] Packet received: 59
+0x59	[remote] Sending packet: $m7c1a,1#f6
+[remote] Received Ack
+[remote] Packet received: b4
+0xb4	[remote] Sending packet: $m7c1b,1#f7
+[remote] Received Ack
+[remote] Packet received: 0e
+0x0e	[remote] Sending packet: $m7c1c,1#f8
+[remote] Received Ack
+[remote] Packet received: 8a
+0x8a	[remote] Sending packet: $m7c1d,1#f9
+[remote] Received Ack
+[remote] Packet received: 04
+0x04	[remote] Sending packet: $m7c1e,1#fa
+[remote] Received Ack
+[remote] Packet received: cd
+0xcd	[remote] Sending packet: $m7c1f,1#fb
+[remote] Received Ack
+[remote] Packet received: 10
+0x10
+0x7c20:	[remote] Sending packet: $m7c20,1#c6
+[remote] Received Ack
+[remote] Packet received: 46
+0x46	[remote] Sending packet: $m7c21,1#c7
+[remote] Received Ack
+[remote] Packet received: e2
+0xe2	[remote] Sending packet: $m7c22,1#c8
+[remote] Received Ack
+[remote] Packet received: e9
+0xe9	[remote] Sending packet: $m7c23,1#c9
+[remote] Received Ack
+[remote] Packet received: be
+0xbe	[remote] Sending packet: $m7c24,1#ca
+[remote] Received Ack
+[remote] Packet received: 84
+0x84	[remote] Sending packet: $m7c25,1#cb
+[remote] Received Ack
+[remote] Packet received: 7c
+0x7c	[remote] Sending packet: $m7c26,1#cc
+[remote] Received Ack
+[remote] Packet received: b9
+0xb9	[remote] Sending packet: $m7c27,1#cd
+[remote] Received Ack
+[remote] Packet received: 11
+0x11
+0x7c28:	[remote] Sending packet: $m7c28,1#ce
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7c29,1#cf
+[remote] Received Ack
+[remote] Packet received: eb
+0xeb	[remote] Sending packet: $m7c2a,1#f7
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7c2b,1#f8
+[remote] Received Ack
+[remote] Packet received: 51
+0x51	[remote] Sending packet: $m7c2c,1#f9
+[remote] Received Ack
+[remote] Packet received: b4
+0xb4	[remote] Sending packet: $m7c2d,1#fa
+[remote] Received Ack
+[remote] Packet received: 86
+0x86	[remote] Sending packet: $m7c2e,1#fb
+[remote] Received Ack
+[remote] Packet received: b0
+0xb0	[remote] Sending packet: $m7c2f,1#fc
+[remote] Received Ack
+[remote] Packet received: 00
+0x00
+0x7c30:	[remote] Sending packet: $m7c30,1#c7
+[remote] Received Ack
+[remote] Packet received: b9
+0xb9	[remote] Sending packet: $m7c31,1#c8
+[remote] Received Ack
+[remote] Packet received: 01
+0x01	[remote] Sending packet: $m7c32,1#c9
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7c33,1#ca
+[remote] Received Ack
+[remote] Packet received: ba
+0xba	[remote] Sending packet: $m7c34,1#cb
+[remote] Received Ack
+[remote] Packet received: a0
+0xa0	[remote] Sending packet: $m7c35,1#cc
+[remote] Received Ack
+[remote] Packet received: 86
+0x86	[remote] Sending packet: $m7c36,1#cd
+[remote] Received Ack
+[remote] Packet received: cd
+0xcd	[remote] Sending packet: $m7c37,1#ce
+[remote] Received Ack
+[remote] Packet received: 15
+0x15
+0x7c38:	[remote] Sending packet: $m7c38,1#cf
+[remote] Received Ack
+[remote] Packet received: 59
+0x59	[remote] Sending packet: $m7c39,1#d0
+[remote] Received Ack
+[remote] Packet received: b4
+0xb4	[remote] Sending packet: $m7c3a,1#f8
+[remote] Received Ack
+[remote] Packet received: 0e
+0x0e	[remote] Sending packet: $m7c3b,1#f9
+[remote] Received Ack
+[remote] Packet received: 8a
+0x8a	[remote] Sending packet: $m7c3c,1#fa
+[remote] Received Ack
+[remote] Packet received: 04
+0x04	[remote] Sending packet: $m7c3d,1#fb
+[remote] Received Ack
+[remote] Packet received: cd
+0xcd	[remote] Sending packet: $m7c3e,1#fc
+[remote] Received Ack
+[remote] Packet received: 10
+0x10	[remote] Sending packet: $m7c3f,1#fd
+[remote] Received Ack
+[remote] Packet received: 46
+0x46
+0x7c40:	[remote] Sending packet: $m7c40,1#c8
+[remote] Received Ack
+[remote] Packet received: e2
+0xe2	[remote] Sending packet: $m7c41,1#c9
+[remote] Received Ack
+[remote] Packet received: e9
+0xe9	[remote] Sending packet: $m7c42,1#ca
+[remote] Received Ack
+[remote] Packet received: eb
+0xeb	[remote] Sending packet: $m7c43,1#cb
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7c44,1#cc
+[remote] Received Ack
+[remote] Packet received: b4
+0xb4	[remote] Sending packet: $m7c45,1#cd
+[remote] Received Ack
+[remote] Packet received: 02
+0x02	[remote] Sending packet: $m7c46,1#ce
+[remote] Received Ack
+[remote] Packet received: b0
+0xb0	[remote] Sending packet: $m7c47,1#cf
+[remote] Received Ack
+[remote] Packet received: 01
+0x01
+0x7c48:	[remote] Sending packet: $m7c48,1#d0
+[remote] Received Ack
+[remote] Packet received: b5
+0xb5	[remote] Sending packet: $m7c49,1#d1
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7c4a,1#f9
+[remote] Received Ack
+[remote] Packet received: b1
+0xb1	[remote] Sending packet: $m7c4b,1#fa
+[remote] Received Ack
+[remote] Packet received: 02
+0x02	[remote] Sending packet: $m7c4c,1#fb
+[remote] Received Ack
+[remote] Packet received: b6
+0xb6	[remote] Sending packet: $m7c4d,1#fc
+[remote] Received Ack
+[remote] Packet received: 00
+0x00	[remote] Sending packet: $m7c4e,1#fd
+[remote] Received Ack
+[remote] Packet received: b8
+0xb8	[remote] Sending packet: $m7c4f,1#fe
+[remote] Received Ack
+[remote] Packet received: e0
+0xe0
+❌️ Quit
+Detaching from program: /home/ayoub_tajana/git/my-os/boot/version2.0/object_files/bootloader.o, process 1
+[remote] Sending packet: $D;1#b0
+❌️ Remote connection closed

@@ -4,6 +4,7 @@
 .code16
 
 _start:
+    mov %dl, boot_drive
     #Set video mode
     mov $0x0, %ah
     mov $0x3, %al
@@ -62,22 +63,27 @@ loadkernel:
     mov $0x01,%al # Read 1 sector
 
     # CHS declaration
-        mov$0x00,%ch #Clinder 0
-        mov$0x02,%cl # sector 2
-        mov$0x00,%dh
+        mov $0x00,%ch #Clinder 0
+        mov $0x02,%cl # sector 2
+        mov $0x00,%dh
 
     # Choose where the kernel should be loaded in RAM
-        mov $0x1000,%ax
+        mov $0x07E0,%ax
         mov %ax,%es
-        mov %0x0000, %bx
-
+        mov $0x0000, %bx
+        mov boot_drive, %dl
     # BIOS Interrupt
         int $0x13
 
-    ljmp $0x1000,$0x0000
+    
+    ljmp $0x07E0,$0x0000
 welcomemessage:
     .ascii "The Mountain Systems Bootloader v1.0 \n\r"
 loadingmsg:
     .ascii "Loading Kernel..."
-    .fill 510 - (. - _start), 1, 0
+boot_drive:
+    .byte 0
+
+fill:
+      .fill 510 - (. - _start), 1, 0
     .word 0xAA55

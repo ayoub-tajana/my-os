@@ -25,6 +25,4 @@ printtext:
     jmp .
 message:
     .ascii "Kernel Loaded!"
-    
-    .fill 510 - (. - _start), 1, 0
-    .word 0xAA55
+    .fill 512 - (. - _start), 1, 0
