@@ -11,7 +11,7 @@ _start:
     
     
     mov $welcomemessage, %si
-    mov $36,%cx
+    mov $39,%cx
 
 
 printwelcome:
@@ -37,7 +37,7 @@ printloading_kernel:
 
     jmp .
 welcomemessage:
-    .ascii "The Mountain Systems Bootloader v1.0"
+    .ascii "The Mountain Systems Bootloader v1.0 \n\r"
 loadingmsg:
     .ascii "Loading Kernel..."
     .fill 510 - (. - _start), 1, 0
