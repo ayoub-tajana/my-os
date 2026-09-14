@@ -7,5 +7,28 @@ I always wanted to learn Assembly and C because i like it's complexity and since
 
 <h2>Requirements<h2>
     <table>
-        <head>
+        <tr>
+            <td>
+                <bold>Make</bold>
+            </td>
+            <td>
+                <p>To automate the build process</p>
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                <bold>as & ld</bold>
+            </td>
+            <td>
+                <p>The assembler and linker to create at the end a file that the BIOS/UEFI can read</p>
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                <bold>QEMU x86_64</bold>
+            </td>
+            <td>
+                <p>To test out the code i made</p>
+            </td>
+        </tr>
     </table>
